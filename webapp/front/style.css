@@ -1,0 +1,339 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+            max-width: 1500px;
+            margin: auto;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+        
+        button {
+            cursor: pointer;
+        }
+        /* HEADER */
+        /* .header {
+            margin-top: 20px;
+        } */
+        
+        .header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header__menu {
+            display: flex;
+            margin: 0px auto;
+        }
+        
+        .header__img {
+            width: 115px;
+            margin-left: 20px;
+        }
+        
+        .header__nav-list {
+            display: flex;
+        }
+        
+        .header__nav-item {
+            color: #2c1dfb;
+            margin-right: 135px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .header__nav-item:hover {
+            color: #0b0582;
+            cursor: pointer;
+        }
+        
+        .btn {
+            background-color: #6E63FA;
+            border-radius: 8px;
+            padding: 9px 32px;
+            font-weight: 600;
+            color: #fff;
+            border: 0;
+            line-height: 21px;
+            border: 1px solid #6E63FA;
+        }
+        
+        .header .login:hover,
+        .btn:hover {
+            background-color: #4e47b1;
+            color: #fff;
+        }
+        
+        .header .login {
+            background-color: unset;
+            color: #6E63FA;
+            margin-right: 24px;
+        }
+        
+        .header__menu a {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 21px;
+            letter-spacing: -0.32px;
+            color: rgba(1, 16, 50, 0.6);
+            margin: 0px 20px;
+        }
+        
+        .header__menu a:hover {
+            color: #011032;
+        }
+        
+        .header__img {
+            width: 80px;
+            display: inline-block;
+        }
+        
+        .nav__list {
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav__lists {
+            margin-left: 30px;
+            font-weight: 600;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        .nav__list-link:hover {
+            color: #4e47b1;
+        }
+        
+        .nav__lists:not(last-child) {
+            padding-right: 110px;
+        }
+        
+        .nav__lists:hover {
+            color: #4e47b1;
+            cursor: pointer;
+        }
+        
+        .search__container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+        }
+        
+        .search input[type=text] {
+            width: 800px;
+            height: 45px;
+            border-radius: 25px 10px 10px 25px;
+            border-color: rgb(155, 205, 205);
+            border-right: none;
+        }
+        
+        .search {
+            float: right;
+            margin: 7px;
+        }
+        
+        .search button {
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 13px 15px;
+            margin-right: 16px;
+            font-size: 12px;
+            border-radius: 5px 25px 25px 5px;
+            cursor: pointer;
+            margin-left: -1px;
+        }
+        
+        .card__container {
+            margin-top: 70px;
+            margin-left: 50px;
+            display: flex;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .card__img {
+            width: 300px;
+        }
+        
+        .card__description {
+            margin-left: 15px;
+        }
+        
+        .card__descrpt {
+            padding-bottom: 15px;
+        }
+        
+        .card__article-body {
+            margin-top: 65px;
+        }
+        
+        .card__article-number {
+            margin-top: 3px;
+        }
+        
+        .card__btn {
+            margin-top: 145px;
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 9px 32px;
+            font-weight: 600;
+            color: #6E63FA;
+            border: 0;
+            line-height: 21px;
+            border: 1px solid #6E63FA;
+        }
+        
+        .card__btn:hover {
+            color: #fff;
+            background-color: #6E63FA;
+        }
+        
+        .card__second {
+            margin-left: 180px;
+        }
+        
+        .card__second-name {
+            margin-bottom: 80px;
+        }
+        
+        .card__cost-items {
+            padding-bottom: 80px;
+        }
+        
+        .card__third {
+            margin-left: 280px;
+        }
+        
+        .card__third-name {
+            margin-bottom: 80px;
+        }
+        
+        .card__third-items {
+            padding-bottom: 80px;
+        }
+        
+        .card__third-items:nth-child(3) {
+            color: rgb(140, 43, 140);
+        }
+        
+        .graph__container {
+            width: 1000px;
+            text-align: center;
+        }
+        
+        #myChart {
+            margin-top: 35px;
+            margin-left: 50px;
+        }
+        
+        .chart__name {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .chart__texts {
+            font-weight: 900;
+            font-family: sans-serif;
+        }
+        
+        .chart__texts:nth-child(1) {
+            color: rgb(6, 85, 6);
+        }
+        
+        .chart__texts:nth-child(2) {
+            color: rgb(233, 38, 44);
+        }
+        
+        .chart__texts:nth-child(3) {
+            color: rgb(56, 9, 230);
+        }
+        
+        .table__container {
+            margin-top: 30px;
+        }
+        
+        .table__section {
+            width: 100%;
+            border: 1px solid rgb(136, 11, 226);
+        }
+        
+        th,
+        td {
+            border: 1px solid rgb(182, 47, 47);
+            padding: 10px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .tables__section {
+            margin-top: 50px;
+        }
+        
+        .economy__table {
+            margin-top: 50px;
+        }
+        
+        .economy__item {
+            background-color: green;
+        }
+        
+        .analytic__container {
+            margin-top: 50px;
+        }
+        
+        .analytic__card {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        
+        .analytic__cards {
+            width: 400px;
+            height: 150px;
+            margin-top: 15px;
+            background-color: #3e0845;
+            border-radius: 10px;
+        }
+        
+        .analytic__name {
+            color: antiquewhite;
+            margin-top: 8px;
+            margin-left: 15px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .analytic__text {
+            margin-top: 45px;
+            margin-left: 15px;
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .analytic__text-name {
+            margin-top: 40px;
+            margin-left: 15px;
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .analytic__text-text {
+            margin-top: 15px;
+            margin-left: 15px;
+            color: antiquewhite;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
